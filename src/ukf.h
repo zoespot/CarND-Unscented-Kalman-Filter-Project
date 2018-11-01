@@ -67,7 +67,10 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  //current NIS for laser
+  double NIS_radar_;
 
+  double NIS_laser_; 
   /**
    * Constructor
    */
